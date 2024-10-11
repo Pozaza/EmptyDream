@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4282143950922610808
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ece09b57fde18445b241e21a99082d4, type: 3}
+  m_Name: VHSEffect
+  m_EditorClassIdentifier: 
+  active: 1
+  enable:
+    m_OverrideState: 1
+    m_Value: 1
+  fade:
+    m_OverrideState: 1
+    m_Value: 0
+  colorOffset:
+    m_OverrideState: 1
+    m_Value: 10
+  colorOffsetAngle:
+    m_OverrideState: 0
+    m_Value: 3
+  verticalOffsetFrequency:
+    m_OverrideState: 1
+    m_Value: 100
+  verticalOffset:
+    m_OverrideState: 1
+    m_Value: 0.075
+  offsetDistortion:
+    m_OverrideState: 1
+    m_Value: 0.01
+  noiseTexture:
+    m_OverrideState: 0
+    m_Value: {fileID: 2800000, guid: 695b615b33506ce45a175ff428ab7b91, type: 3}
+  blendMode:
+    m_OverrideState: 0
+    m_Value: 0
+  tile:
+    m_OverrideState: 0
+    m_Value: {x: 1, y: 1}
+  _textureIntensity:
+    m_OverrideState: 0
+    m_Value: 1
+  smoothCut:
+    m_OverrideState: 1
+    m_Value: 1
+  iterations:
+    m_OverrideState: 0
+    m_Value: 30
+  smoothSize:
+    m_OverrideState: 0
+    m_Value: 0
+  deviation:
+    m_OverrideState: 0
+    m_Value: 0.5
+  _textureCutOff:
+    m_OverrideState: 0
+    m_Value: -1
+  stripes:
+    m_OverrideState: 0
+    m_Value: 0.01
+  unscaledTime:
+    m_OverrideState: 0
+    m_Value: 0
+  mask:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  maskChannel:
+    m_OverrideState: 0
+    m_Value: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: "\u0421\u0443\u043C\u0430\u0448\u0435\u0441\u0442\u0432\u0438\u0435"
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: -4282143950922610808}
+  - {fileID: 3526741059639860870}
+--- !u!114 &2063029694712221785
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10fea1c97e07f47e9bd7f60f0e75e2fe, type: 3}
+  m_Name: AnalogTVNoise
+  m_EditorClassIdentifier: 
+  active: 1
+  enable:
+    m_OverrideState: 0
+    m_Value: 0
+  staticNoise:
+    m_OverrideState: 0
+    m_Value: 0
+  Horizontal:
+    m_OverrideState: 0
+    m_Value: 1
+  Fade:
+    m_OverrideState: 0
+    m_Value: 1
+  barWidth:
+    m_OverrideState: 0
+    m_Value: 21
+  tile:
+    m_OverrideState: 0
+    m_Value: {x: 1, y: 1}
+  textureAngle:
+    m_OverrideState: 0
+    m_Value: 1
+  edgeCutOff:
+    m_OverrideState: 0
+    m_Value: 0
+  CutOff:
+    m_OverrideState: 0
+    m_Value: 1
+  barSpeed:
+    m_OverrideState: 0
+    m_Value: 1
+  texture:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  mask:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  maskChannel:
+    m_OverrideState: 0
+    m_Value: 0
+--- !u!114 &3526741059639860870
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7321846e3f41462a9ae9dabb9989e19, type: 3}
+  m_Name: CRTAperture
+  m_EditorClassIdentifier: 
+  active: 1
+  enable:
+    m_OverrideState: 1
+    m_Value: 1
+  fade:
+    m_OverrideState: 1
+    m_Value: 0
+  GlowHalation:
+    m_OverrideState: 1
+    m_Value: 1
+  GlowDifusion:
+    m_OverrideState: 1
+    m_Value: 1
+  MaskColors:
+    m_OverrideState: 1
+    m_Value: 3.25
+  MaskStrength:
+    m_OverrideState: 1
+    m_Value: 1
+  GammaInput:
+    m_OverrideState: 1
+    m_Value: 1
+  GammaOutput:
+    m_OverrideState: 1
+    m_Value: 0.75
+  Brightness:
+    m_OverrideState: 1
+    m_Value: 0.5
+  mask:
+    m_OverrideState: 0
+    m_Value: {fileID: 2800000, guid: c171d861cb5bf75408826b8f346946bb, type: 3}
+  maskChannel:
+    m_OverrideState: 0
+    m_Value: 1

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 3c72c298633b4fe4c9f7c793db92e9c3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - text: {instanceID: 0}
+  - image: {instanceID: 0}
+  - enabledImageSprite: {instanceID: 0}
+  - mouseEnter: {fileID: 8300000, guid: 430c85be97c944046b990b2de57beef2, type: 3}
+  - mouseClick: {fileID: 8300000, guid: 270a0f0114476de42ba53421a2b160e3, type: 3}
+  executionOrder: 200
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

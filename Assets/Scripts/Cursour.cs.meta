@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b5cd3743d93c17740b63bd8c83c4c99c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - normal: {fileID: 2800000, guid: 3e06fd8ae0be3a04e9d870eefebfcd7c, type: 3}
+  - attack: {fileID: 2800000, guid: 85cea171d9cda2447b3b241c501ed365, type: 3}
+  - clicked: {fileID: 2800000, guid: d1459336d01b6d94095c0ed82a0592c5, type: 3}
+  - attackOrb: {fileID: 21300000, guid: e4f25537036b6194e9fc568c09ddb9ee, type: 3}
+  - normalOrb: {fileID: 21300000, guid: 3dac36d4355b649479b6045b403f8381, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
